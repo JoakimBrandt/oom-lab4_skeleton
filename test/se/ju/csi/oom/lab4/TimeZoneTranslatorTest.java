@@ -15,13 +15,6 @@ public class TimeZoneTranslatorTest {
 	public void setUp() throws Exception {	}
 
 	@Test
-	public void testingDateTimeTostring() {
-		DateTime dateTimeStringTest = new DateTime(2018, 07, 10, 10, 30, 00);
-		assertEquals("They are not the same, ", "2018-07-10 10:30:00", dateTimeStringTest.toString());
-	}
-	
-	
-	@Test
 	public void testShiftTimeZone() {
 		
 		DateTime dateTimeTestObject = new DateTime(1993, 11, 29, 13, 00, 00);
